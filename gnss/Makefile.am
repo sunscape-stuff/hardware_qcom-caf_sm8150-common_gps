@@ -5,7 +5,7 @@ AM_CFLAGS = \
      $(LOCCORE_CFLAGS) \
      -I./ \
      -I../utils \
-     -I$(WORKSPACE)/hardware/qcom/gps/core/data-items \
+     -I$(WORKSPACE)/hardware/qcom-caf/sm8150-common/gps/core/data-items \
      -I../location \
      -std=c++1y
 
